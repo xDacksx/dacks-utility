@@ -1,0 +1,37 @@
+{
+    "name": "@dacks/utility",
+    "version": "1.0.0",
+    "description": "NodeJs utility functions",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "start": "npm run build && node ./dist/index.js",
+        "dev": "",
+        "build": "tsup index.ts --format cjs,esm --dts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xDacksx/dacks-utility.git"
+    },
+    "keywords": [
+        "npm",
+        "package",
+        "message",
+        "log",
+        "nodejs"
+    ],
+    "author": "dacks",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/xDacksx/dacks-utility/issues"
+    },
+    "homepage": "https://github.com/xDacksx/dacks-utility#readme",
+    "devDependencies": {
+        "tsup": "^8.0.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "colors": "^1.4.0"
+    }
+}
