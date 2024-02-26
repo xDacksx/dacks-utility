@@ -8,7 +8,7 @@
     "scripts": {
         "start": "npm run build && node ./dist/index.js",
         "dev": "nodemon",
-        "build": "tsup index.ts --format cjs,esm --dts"
+        "build": "tsup"
     },
     "repository": {
         "type": "git",
@@ -22,7 +22,7 @@
         "nodejs"
     ],
     "author": "dacks",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/xDacksx/dacks-utility/issues"
     },
