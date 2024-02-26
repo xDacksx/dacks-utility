@@ -1,5 +1,5 @@
 {
-    "name": "@dacks/utility",
+    "name": "@dacks/utils",
     "version": "1.0.0",
     "description": "NodeJs utility functions",
     "main": "dist/index.js",
